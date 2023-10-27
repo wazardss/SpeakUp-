@@ -1,6 +1,6 @@
 body {
  width:900px;
- background-color:#F9F9F9;
+ background-color:#ffffff;
  height: 34720px;
 }
 
@@ -9,11 +9,11 @@ body {
   opacity: 0.18;
   position:absolute;
   background-color:#29ABEE;
-  width: 490px;
-  height:451px;
+  width: 390px;
+  height:365px;
   border-radius: 50%/50%;
-  right:460px;
-  top: 720px;
+  right:430px;
+  top: 565px;
   transform: rotate(150deg);
   transform-origin: top right;
  }
@@ -21,75 +21,77 @@ body {
   opacity: 0.1;
   position:absolute;
   background-color:#00B0F0;
-  width: 515px;
-  height:460px;
+  width: 425px;
+  height:385px;
   border-radius: 50%/50%;
-  right:630px;
-  top:780px;
-  transform: rotate(160deg);
+  right:600px;
+  top:625px;
+  transform: rotate(162deg);
   transform-origin: top right;
  }
 .img1 {
-  height: 390px;
+  height: 320px;
   position:absolute;
-  right:0;
-  top: 150px;
+  right:25px;
+  top: 118px;
 }
 .header {
   background-color: #FFFFFF;
-  padding: 52px;
+  padding: 45px;
   position: absolute;
   right: 0;
   left: 0;
   top: 0;
   box-shadow: 0px 40px 100px rgba(0, 0, 0, 0.1);
 }.teleimg {
-  height: 63px;
+  height: 38px;
   position: absolute;
-  top: 140px;
+  top: 120px;
   margin-left: 40px;
 }
 .gram {
   position: absolute;
-  top: 600px;
+  top: 300px;
   left: 0;
-  height: 180px;
+  height: 140px;
 }  
 .headertext {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
-  font-weight: 200;
-  margin-top: 360px;
-  margin-left: 150px;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  top: 120px;
+  left: 150px;
   display: inline-block;
 }
 .t1 {
   color: #0070C0;
   position: absolute;
-  top: 450px;
+  top: 260px;
   left: 180px;
   margin:0;
   width:300px;
-  font-size: 20px;
+  font-family: 'Lora', serif;
+  font-size: 12px;
 }
 
 .logo {
   position: absolute;
   top: 0px;
   margin-left: 0;
-  height:90px ;
+  height:85px ;
 }
 .subscribe {
   position: absolute;
-  top: 36px;
+  top: 35px;
   right: 330px;
   background-color: #29ABEE;
   border: none;
   border-radius: 100px;
-  padding: 4.5px 20px 5.5px 20px;
+  padding: 3.5px 18px 5px 18px;
   color: white;
-  font-size: 21px;
-
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
 }
 .subscribe:hover {
   opacity: 0.4;
@@ -99,78 +101,88 @@ body {
   position: absolute;
   top: 40px;
   right: 225px;
-  font-size: 21px;
+  font-size: 17px;
   color:#29ABEE;
+  font-family: 'Roboto', sans-serif;
 }
 .a2 {
   position: absolute;
   top: 40px;
   right: 115px; 
-  font-size: 21px;
+  font-size: 17px;
   color:#29ABEE;
+  font-family: 'Roboto', sans-serif;
 }
 .textsheet {
   position: absolute;
-  top: 680px;
-  left: 180px;
-  height: 220px;
-  width: 360px;
+  top: 365px;
+  left: 218px;
+  height: 175px;
+  width: 315px;
   background-color: #0066FF;
   z-index: 1;
-  opacity: 0.2;
+  opacity: 0.15;
 }
 .textsheet2 {
   position: absolute;
-  top: 700px;
-  left: 230px;
-  height: 220px;
-  width: 5px;
-  background-color: #0066FF;
+  top: 410px;
+  left: 250px;
+  height: 170px;
+  width: 3.5px;
+  background-color: #29ABEE;
   z-index: 2;
-  opacity: 0.7;
+  opacity: 1;
   border-radius: 100px;
 }
 .textt {
   position: absolute;
-  top: 750px;
-  left: 270px;
+  top: 435px;
+  left: 277px;
   height: 100px;
-  width: 350px;
-  color: #255194;
+  width: 390px;
+  color: #4690ff;
   z-index: 2;
-
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+.texttt {
+  position: absolute;
+  top: 417px;
+  left: 280px;
+  z-index: 3;
+  color: white;
 }
 .img2 {
   position: absolute;
-  top: 228px;
-  right: 415px;
+  top: 175px;
+  right: 400px;
   height: 10px;
 }
 
 .img3 {
   position: absolute;
-  top: 250px;
+  top: 190px;
   right: 83px;
   height: 10px;
   transform: rotate(90deg);
 }
 .img4 {
   position: absolute;
-  top: 320px;
-  right: 18px;
+  top: 275px;
+  right: 19px;
   height: 10px;
   transform: rotate(90deg);
 }
 .join {
   position: absolute;
-  top: 915px;
-  left: 265px;
+  top: 560px;
+  left: 300px;
   background-color: #29ABEE;
   border: none;
   border-radius: 100px;
-  padding: 12px 32px 12px 32px;
+  padding: 11px 30px 11px 30px;
   color: white;
-  font-size: 21px;
+  font-size: 18px;
   
 }
 .join:hover,
@@ -179,3 +191,4 @@ body {
   opacity: 0.3;
   cursor: pointer;
 }
+
